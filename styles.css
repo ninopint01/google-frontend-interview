@@ -27,4 +27,27 @@ body {
     padding: 5px;
     margin-bottom: 3px;
     border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status {
+    width: 10px;
+    height: 10px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+}
+
+.correct {
+    background-color: green;
+}
+
+.partially-correct {
+    background-color: yellow;
+}
+
+.incorrect {
+    background-color: red;
 }
